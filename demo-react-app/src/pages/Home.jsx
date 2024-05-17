@@ -1,16 +1,11 @@
 import React from 'react'
-
+import Contact from './Contact';
 export default function Home() {
   return (
     <div>
-      <h1>Car Toyoyta</h1>
-      <h2>Model : selon</h2>
-      <h2>Color : White</h2>
-      <div>
-        <h1>Car Toyoyta</h1>
-        <h2>Model : selon</h2>
-        <h2>Color : White</h2>
-      </div>
+     <Contact name="Adnan" number="01867871200"/>
+     <Contact name="Sami" number="01767871200"/>
+     <Contact name="Kabir" number="01467871200"/>
     </div>
   );
 }
