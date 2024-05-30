@@ -3,6 +3,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Facebook from './pages/Facebook';
+import Fragment from "./pages/Fragment";
 function App() {
   return (
     <div className="App">
@@ -10,6 +11,7 @@ function App() {
    <About/>
    <Contact/>
    <Facebook/>
+   <Fragment/>
     </div>
   );
 }
