@@ -6,9 +6,9 @@ import Contact from './pages/Contact';
 import Facebook from './pages/Facebook';
 import Fragment from "./pages/Fragment";
 import Clipboard from "./pages/Clipboard";
+import WelcomeAdmin from './pages/WelcomeAdmin';
 function App() {
   return (
-   
       <>
         <Home />
         <About />
@@ -16,6 +16,7 @@ function App() {
         <Facebook />
         <Fragment />
         <Clipboard/>
+        <WelcomeAdmin/>
       </>
    
   );
