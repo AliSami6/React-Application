@@ -8,6 +8,7 @@ import Fragment from "./pages/Fragment";
 import Clipboard from "./pages/Clipboard";
 import Base from "./pages/base";
 import WelcomeAdmin from './pages/WelcomeAdmin';
+import Input from './pages/input';
 import Style from "./pages/Style";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Base />
       <WelcomeAdmin />
       <Style />
+      <Input/>
     </>
   );
 }
